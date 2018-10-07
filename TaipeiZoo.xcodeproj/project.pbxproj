@@ -7,27 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB2BD862216A57B40061AAD3 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB2BD861216A57B40061AAD3 /* SDWebImage.framework */; };
 		DB5819DA2169EC4F00ACA639 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5819D92169EC4F00ACA639 /* AppDelegate.m */; };
-		DB5819DD2169EC4F00ACA639 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5819DC2169EC4F00ACA639 /* ViewController.m */; };
-		DB5819E02169EC4F00ACA639 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB5819DE2169EC4F00ACA639 /* Main.storyboard */; };
-		DB5819E32169EC4F00ACA639 /* TaipeiZoo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB5819E12169EC4F00ACA639 /* TaipeiZoo.xcdatamodeld */; };
 		DB5819E52169EC5000ACA639 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB5819E42169EC5000ACA639 /* Assets.xcassets */; };
 		DB5819E82169EC5000ACA639 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB5819E62169EC5000ACA639 /* LaunchScreen.storyboard */; };
 		DB5819EB2169EC5000ACA639 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5819EA2169EC5000ACA639 /* main.m */; };
+		DB5819F42169EC9900ACA639 /* AnimalsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5819F22169EC9900ACA639 /* AnimalsTableViewController.m */; };
+		DB5819F52169EC9900ACA639 /* AnimalsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB5819F32169EC9900ACA639 /* AnimalsTableViewController.xib */; };
+		DB5819F92169ED1700ACA639 /* AnimalsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5819F72169ED1700ACA639 /* AnimalsTableViewCell.m */; };
+		DB5819FA2169ED1700ACA639 /* AnimalsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB5819F82169ED1700ACA639 /* AnimalsTableViewCell.xib */; };
+		DB5819FD2169F0EB00ACA639 /* AnimalsMod.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5819FC2169F0EB00ACA639 /* AnimalsMod.m */; };
+		DB581A062169FFE900ACA639 /* AnimalEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = DB581A052169FFE900ACA639 /* AnimalEntity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB2BD861216A57B40061AAD3 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Carthage/Build/iOS/SDWebImage.framework; sourceTree = "<group>"; };
 		DB5819D52169EC4F00ACA639 /* TaipeiZoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaipeiZoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB5819D82169EC4F00ACA639 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DB5819D92169EC4F00ACA639 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DB5819DB2169EC4F00ACA639 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DB5819DC2169EC4F00ACA639 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DB5819DF2169EC4F00ACA639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DB5819E22169EC4F00ACA639 /* TaipeiZoo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaipeiZoo.xcdatamodel; sourceTree = "<group>"; };
 		DB5819E42169EC5000ACA639 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB5819E72169EC5000ACA639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB5819E92169EC5000ACA639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB5819EA2169EC5000ACA639 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB5819F12169EC9900ACA639 /* AnimalsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimalsTableViewController.h; sourceTree = "<group>"; };
+		DB5819F22169EC9900ACA639 /* AnimalsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimalsTableViewController.m; sourceTree = "<group>"; };
+		DB5819F32169EC9900ACA639 /* AnimalsTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnimalsTableViewController.xib; sourceTree = "<group>"; };
+		DB5819F62169ED1700ACA639 /* AnimalsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimalsTableViewCell.h; sourceTree = "<group>"; };
+		DB5819F72169ED1700ACA639 /* AnimalsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimalsTableViewCell.m; sourceTree = "<group>"; };
+		DB5819F82169ED1700ACA639 /* AnimalsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnimalsTableViewCell.xib; sourceTree = "<group>"; };
+		DB5819FB2169F0EB00ACA639 /* AnimalsMod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimalsMod.h; sourceTree = "<group>"; };
+		DB5819FC2169F0EB00ACA639 /* AnimalsMod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimalsMod.m; sourceTree = "<group>"; };
+		DB581A042169FFE900ACA639 /* AnimalEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimalEntity.h; sourceTree = "<group>"; };
+		DB581A052169FFE900ACA639 /* AnimalEntity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimalEntity.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +46,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB2BD862216A57B40061AAD3 /* SDWebImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB2BD860216A57B40061AAD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB2BD861216A57B40061AAD3 /* SDWebImage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DB5819CC2169EC4F00ACA639 = {
 			isa = PBXGroup;
 			children = (
 				DB5819D72169EC4F00ACA639 /* TaipeiZoo */,
 				DB5819D62169EC4F00ACA639 /* Products */,
+				DB2BD860216A57B40061AAD3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,14 +83,20 @@
 			children = (
 				DB5819D82169EC4F00ACA639 /* AppDelegate.h */,
 				DB5819D92169EC4F00ACA639 /* AppDelegate.m */,
-				DB5819DB2169EC4F00ACA639 /* ViewController.h */,
-				DB5819DC2169EC4F00ACA639 /* ViewController.m */,
-				DB5819DE2169EC4F00ACA639 /* Main.storyboard */,
 				DB5819E42169EC5000ACA639 /* Assets.xcassets */,
 				DB5819E62169EC5000ACA639 /* LaunchScreen.storyboard */,
 				DB5819E92169EC5000ACA639 /* Info.plist */,
 				DB5819EA2169EC5000ACA639 /* main.m */,
-				DB5819E12169EC4F00ACA639 /* TaipeiZoo.xcdatamodeld */,
+				DB5819F12169EC9900ACA639 /* AnimalsTableViewController.h */,
+				DB5819F22169EC9900ACA639 /* AnimalsTableViewController.m */,
+				DB5819F32169EC9900ACA639 /* AnimalsTableViewController.xib */,
+				DB5819F62169ED1700ACA639 /* AnimalsTableViewCell.h */,
+				DB5819F72169ED1700ACA639 /* AnimalsTableViewCell.m */,
+				DB5819F82169ED1700ACA639 /* AnimalsTableViewCell.xib */,
+				DB5819FB2169F0EB00ACA639 /* AnimalsMod.h */,
+				DB5819FC2169F0EB00ACA639 /* AnimalsMod.m */,
+				DB581A042169FFE900ACA639 /* AnimalEntity.h */,
+				DB581A052169FFE900ACA639 /* AnimalEntity.m */,
 			);
 			path = TaipeiZoo;
 			sourceTree = "<group>";
@@ -84,6 +111,7 @@
 				DB5819D12169EC4F00ACA639 /* Sources */,
 				DB5819D22169EC4F00ACA639 /* Frameworks */,
 				DB5819D32169EC4F00ACA639 /* Resources */,
+				DB2BD863216A57E60061AAD3 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -132,36 +160,53 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB5819E82169EC5000ACA639 /* LaunchScreen.storyboard in Resources */,
+				DB5819FA2169ED1700ACA639 /* AnimalsTableViewCell.xib in Resources */,
 				DB5819E52169EC5000ACA639 /* Assets.xcassets in Resources */,
-				DB5819E02169EC4F00ACA639 /* Main.storyboard in Resources */,
+				DB5819F52169EC9900ACA639 /* AnimalsTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DB2BD863216A57E60061AAD3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SDWebImage.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DB5819D12169EC4F00ACA639 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB5819DD2169EC4F00ACA639 /* ViewController.m in Sources */,
+				DB581A062169FFE900ACA639 /* AnimalEntity.m in Sources */,
 				DB5819DA2169EC4F00ACA639 /* AppDelegate.m in Sources */,
 				DB5819EB2169EC5000ACA639 /* main.m in Sources */,
-				DB5819E32169EC4F00ACA639 /* TaipeiZoo.xcdatamodeld in Sources */,
+				DB5819F42169EC9900ACA639 /* AnimalsTableViewController.m in Sources */,
+				DB5819FD2169F0EB00ACA639 /* AnimalsMod.m in Sources */,
+				DB5819F92169ED1700ACA639 /* AnimalsTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DB5819DE2169EC4F00ACA639 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DB5819DF2169EC4F00ACA639 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DB5819E62169EC5000ACA639 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -290,7 +335,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = TaipeiZoo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +356,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = TaipeiZoo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,19 +394,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		DB5819E12169EC4F00ACA639 /* TaipeiZoo.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				DB5819E22169EC4F00ACA639 /* TaipeiZoo.xcdatamodel */,
-			);
-			currentVersion = DB5819E22169EC4F00ACA639 /* TaipeiZoo.xcdatamodel */;
-			path = TaipeiZoo.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = DB5819CD2169EC4F00ACA639 /* Project object */;
 }
